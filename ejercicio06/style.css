@@ -1,0 +1,18 @@
+
+.button-class{
+    margin: 30px;
+    padding: 10px;
+}
+
+.button-class::before {
+    content: "Pasa por encima";
+}
+
+.button-class:hover:after {
+    content: " Hecho!";
+  }
+
+.button-class:hover {
+    background-color: green;
+    color: white;
+}
