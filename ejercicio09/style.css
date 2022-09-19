@@ -1,0 +1,24 @@
+
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-modern{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+.btn-modern:hover{
+    transform:translateY(-5px) ;
+    box-shadow: 10px 5px 5px rgb(228, 226, 226);
+    background-color: rgb(174, 237, 216);
+    color: rgb(177, 20, 20);
+    transition: 0.4s;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
